@@ -7,5 +7,7 @@ class coba:
 
 
 namaku = coba("alvin")
+namanya = coba("dvync")
 
 namaku.out()
+namanya.out()
