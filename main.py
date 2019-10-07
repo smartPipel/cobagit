@@ -5,9 +5,14 @@ class coba:
     def out(self):
         print(self.nama)
 
+    def makeWith(self, name):
+        print(self.nama + " with " + name)
+
 
 namaku = coba("alvin")
 namanya = coba("dvync")
 
 namaku.out()
 namanya.out()
+
+namaku.makeWith(namanya.nama)
